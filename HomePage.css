@@ -1,0 +1,26 @@
+.user-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  transition: transform 0.2s, box-shadow 0.2s;
+}
+
+.user-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.user-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+}
+
+.user-card .card-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: #343a40;
+}
+
+.user-card .card-text {
+  font-size: 1rem;
+  color: #495057;
+}

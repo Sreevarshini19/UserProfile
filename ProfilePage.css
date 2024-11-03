@@ -1,0 +1,34 @@
+.profile-card {
+  border-radius: 15px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  margin: 0 auto; 
+  max-width: 400px; 
+  padding: 20px; 
+}
+.profile-image {
+  border-radius: 50%;
+  border: 5px solid #495057;
+  width: 180px; 
+  height: 180px; 
+  margin: 0 auto 20px;
+}
+.profile-card .card-title {
+  font-size: 1.8rem; 
+  font-weight: bold;
+  color: #343a40;
+  margin-botto
+}
+
+.profile-card .profile-text {
+  font-size: 1rem;  
+  color: #495057;
+  text-align: left;  
+}
+
+.profile-card .profile-text strong {
+  color: #343a40;
+}
+
+.profile-card button {
+  margin-top: 20px;  
+}
